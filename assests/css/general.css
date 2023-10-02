@@ -1,0 +1,105 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+.header {
+  display: flex;
+  height: 102px;
+  margin: auto 32px;
+  align-items: center;
+
+  border-bottom: .7px solid #C4C4C4;;
+
+  /* outline: 1px solid black ; */
+}
+
+.container{
+    margin: auto 234px;
+}
+
+.header-logo {
+  color: #1090cb;
+  font-family: Poppins;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  text-decoration: none;
+}
+
+.header-logo,
+.header-nav {
+  width: 50%;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.nav a{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-decoration: none;
+
+   margin: auto;
+}
+
+.nav a:first-child{
+    margin-left: 40px;
+
+    color: #1090cb;
+
+    /* Base */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-decoration: none;
+    position: relative;
+}
+
+.nav a img{
+    position: absolute;
+    top: -4px;
+    left: -8px;
+}
+
+.nav a:hover{
+    color: #1090cb;
+}
+
+.header-contactus {
+  width: 125px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #1090cb;
+
+  color: #fff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* -------------------------------------------------------- */
+
+.experienced{
+   background: rgba(16, 144, 203, 0.10);
+   height: 100vh;
+}
