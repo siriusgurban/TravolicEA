@@ -278,17 +278,17 @@
 
 /* ------------------web----------------------------- */
 
-.web{
-    display: flex;
-    justify-content: space-between;
-    height: 164px;
-    border-bottom: 0.7px solid #c4c4c4;
+.web {
+  display: flex;
+  justify-content: space-between;
+  height: 164px;
+  border-bottom: 0.7px solid #c4c4c4;
 }
 
-.web-sec{
-    display: flex;
-    gap: 16px;
-    align-items: center;
+.web-sec {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 
 .web-img {
@@ -338,4 +338,109 @@
   font-style: normal;
   font-weight: 400;
   line-height: 175%; /* 26.25px */
+}
+
+/* -------------------------footer-------------------- */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 130px;
+
+  margin: 88px 100px 60px 120px;
+  height: 160px;
+}
+
+.footer-column1 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  height: 158px;
+}
+
+.footer-logo {
+  color: #00329b;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-lorem {
+  color: #515151;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-column2{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 158px;
+}
+
+.footer-column3{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 158px;
+}
+
+.footer-aboutus {
+  color: #000;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-about{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-column4 {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+  height: 158px;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px 4px;
+  /* box-shadow: (0px 4px 14px rgba(0, 0, 0, 0.15)); */
+}
+
+
+
+
+.copy {
+  height: 80px;
+  border-top: 0.7px solid #c4c4c4;
+}
+
+.copyright {
+  color: #686868;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190.6%; /* 24.778px */
+
+  text-align: center;
+  margin: 28px auto;
 }
