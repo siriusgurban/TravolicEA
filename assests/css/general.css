@@ -340,7 +340,104 @@
   line-height: 175%; /* 26.25px */
 }
 
+/* ----------------------------Section-Subscribe---------------------------- */
+
+.subscribe-sec{
+  position: relative;
+}
+
+.subscribe {
+  height: 534px;
+  
+  background-color: #e8f4fa;
+
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-star {
+  width: 66px;
+  height: 66px;
+
+  position: absolute;
+  left: 168px;
+  top: -32px;
+}
+
+.subscribe-paichart {
+  width: 66px;
+  height: 66px;
+
+  position: absolute;
+  left: 990px;
+  top: 94px;
+}
+
+.subscribe-main{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+
+  justify-content: center;
+}
+
+.subscribe-title {
+  color: #252525;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 51px */
+  
+
+  width: 516px;
+  margin: 0 auto;
+
+
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 14px;
+}
+
+.subscribe-input {
+  width: 496px;
+  height: 67px;
+  flex-shrink: 0;
+
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 84px 0px rgba(0, 0, 0, 0.07);
+
+  border: 1px solid #fff;
+  transition: .5s;
+  padding: 0 0 0 36px
+}
+
+.subscribe-input:focus{
+  border: 1px solid #555;
+}
+
+.subscribe-button {
+  width: 173px;
+  height: 67px;
+  flex-shrink: 0;
+
+  color: #fff;
+  border-radius: 10px;
+  background: #000;
+  border: 1px solid #000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 /* -------------------------footer-------------------- */
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -375,14 +472,14 @@
   line-height: normal;
 }
 
-.footer-column2{
+.footer-column2 {
   display: flex;
   flex-direction: column;
   gap: 12px;
   height: 158px;
 }
 
-.footer-column3{
+.footer-column3 {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -398,7 +495,7 @@
   line-height: normal;
 }
 
-.footer-about{
+.footer-about {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -421,12 +518,9 @@
   flex-shrink: 0;
   background-color: #fff;
   border-radius: 50%;
-  box-shadow: 4px 4px 4px 4px;
+  box-shadow: 1px 1px 1px 1px;
   /* box-shadow: (0px 4px 14px rgba(0, 0, 0, 0.15)); */
 }
-
-
-
 
 .copy {
   height: 80px;
