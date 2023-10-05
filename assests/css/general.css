@@ -377,6 +377,18 @@
   position: relative;
 }
 
+.main-200 {
+  margin-bottom: 200px;
+}
+
+.main-86 {
+  margin-bottom: 86px;
+}
+
+.main-234 {
+  margin-bottom: 234px;
+}
+
 .main-card {
   display: flex;
   flex-direction: column;
@@ -385,12 +397,18 @@
 }
 
 .main-card,
-.main-phone {
+.main-phone
+ {
   width: 50%;
 }
 
 .main-phone {
   width: 100%;
+}
+
+.eclipseVR {
+  /* position: absolute;
+  left: 71.5%; */
 }
 
 .main-card-sup {
@@ -401,11 +419,22 @@
 .main-card-sup-img {
   width: 58px;
   height: 58px;
-  background-color: #08d3bb;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.main-blue {
+  background-color: #08d3bb;
+}
+
+.main-sky {
+  background-color: #1090cb;
+}
+
+.main-purple {
+  background-color: #9208d3;
 }
 
 .main-card-sup-card {
@@ -469,12 +498,192 @@
   z-index: 0;
 }
 
-.main-VR{
-  
+
+
+.eclipseVR {
+  z-index: -1;
 }
 
-.eclipseVR{
-  z-index: -1;
+/* ----------------------------Two-Cards--------------------------- */
+
+.twocards {
+  display: flex;
+  gap: 50px;
+
+  margin-bottom: 184px;
+
+  position: relative;
+}
+
+.twocards-card-1 {
+  border-radius: 20px;
+  background: #f4f4f4;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 36px;
+
+  height: 460px;
+}
+
+.twocards-title-1 {
+  color: #252525;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 42.5px */
+
+  margin: 0 120px;
+}
+
+.twocards-text-1 {
+  color: #545454;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 27.2px */
+
+  margin: 0 60px;
+}
+.twocards-viewmore-1 {
+  width: 153px;
+  height: 49px;
+  flex-shrink: 0;
+
+  border-radius: 10px;
+  background: #1090cb;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 27.2px */
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+.twocards-card-2 {
+  border-radius: 20px;
+  background: #1090cb;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 36px;
+
+  height: 460px;
+
+  position: relative;
+}
+
+.twocards-title-2 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 42.5px */
+
+  margin: 0 120px;
+}
+
+.twocards-text-2 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 27.2px */
+
+  margin: 0 60px;
+}
+.twocards-viewmore-2 {
+  width: 153px;
+  height: 49px;
+  flex-shrink: 0;
+
+  border-radius: 10px;
+  background: #fff;
+  color: #1090cb;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%; /* 27.2px */
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+.twocards-bell{
+  position: absolute;
+  top: -76px;
+  left: 70%;
+}
+
+.twocards-eclipce{
+  position: absolute;
+  top: 0;
+  left: 73.5%;
+  z-index: -2;
+}
+
+/* ----------------------------Company---------------------------- */
+
+.company{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  margin-bottom: 88px;
+
+  position: relative;
+}
+
+.company-eclipce{
+  position: absolute;
+
+  top: -76%;
+  left: -14.5%;
+  z-index: -3;
+}
+
+.company-title{
+  color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 159%; /* 38.16px */
+
+display: flex;
+justify-content: center;
+}
+
+.company-card{
+  display: flex;
+  justify-content: center;
+  gap: 116px;
 }
 
 /* ----------------------------Section-Subscribe---------------------------- */
