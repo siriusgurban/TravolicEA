@@ -397,8 +397,7 @@
 }
 
 .main-card,
-.main-phone
- {
+.main-phone {
   width: 50%;
 }
 
@@ -497,8 +496,6 @@
   left: 90%;
   z-index: 0;
 }
-
-
 
 .eclipseVR {
   z-index: -1;
@@ -635,13 +632,13 @@
   margin: 0 auto;
 }
 
-.twocards-bell{
+.twocards-bell {
   position: absolute;
   top: -76px;
   left: 70%;
 }
 
-.twocards-eclipce{
+.twocards-eclipce {
   position: absolute;
   top: 0;
   left: 73.5%;
@@ -650,7 +647,7 @@
 
 /* ----------------------------Company---------------------------- */
 
-.company{
+.company {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -660,7 +657,7 @@
   position: relative;
 }
 
-.company-eclipce{
+.company-eclipce {
   position: absolute;
 
   top: -76%;
@@ -668,19 +665,19 @@
   z-index: -3;
 }
 
-.company-title{
+.company-title {
   color: #000;
-font-family: Poppins;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 159%; /* 38.16px */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 159%; /* 38.16px */
 
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.company-card{
+.company-card {
   display: flex;
   justify-content: center;
   gap: 116px;
@@ -863,7 +860,7 @@ justify-content: center;
   border-radius: 50%;
   box-shadow: 1px 1px 1px 1px;
   /* box-shadow: (0px 4px 14px rgba(0, 0, 0, 0.15)); */
-
+  /* box-shadow: 0px 4px 124px 0px rgba(0, 0, 0, 0.10); */
   cursor: pointer;
 }
 
@@ -882,4 +879,303 @@ justify-content: center;
 
   text-align: center;
   margin: 28px auto;
+}
+
+/* ---------------------------ABOUT-US-------------------------------- */
+.section-line {
+  border-top: 0.7px solid #c4c4c4;
+}
+
+.aboutus-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  position: relative;
+  margin-bottom: 220px;
+}
+
+.aboutus-sec1 {
+  display: flex;
+  gap: 70px;
+  margin: 156px auto 0 88px;
+}
+.aboutus-photo {
+  display: flex;
+  gap: 50px;
+}
+
+.aboutus-photo1-mod {
+  display: flex;
+  align-items: flex-end;
+}
+
+.aboutus-photo1 {
+  /* width: 247px;
+  height: 259px; */
+
+  border-radius: 20px;
+
+  /* width: 100%; */
+}
+
+.aboutus-photo2 {
+  /* width: 288px;
+  height: 346px; */
+
+  border-radius: 20px;
+
+  /* width: 100%; */
+}
+
+.aboutus-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.aboutus-card-title {
+  color: #1090cb;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aboutus-card-title2 {
+  color: #252525;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 68px */
+
+  width: 566px;
+}
+
+.aboutus-card-text {
+  color: #868686;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 31.5px */
+
+  width: 462px;
+}
+
+.aboutus-sec2 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.aboutus-sec2-photo1 {
+  width: 100%;
+}
+.aboutus-sec2-photo2 {
+  width: 100%;
+}
+
+.aboutus-vector1 {
+  position: absolute;
+  left: 0;
+  top: 60%;
+}
+.aboutus-vector2 {
+  position: absolute;
+  left: 96.2%;
+  top: -100px;
+}
+
+/* ---------------------------ABOUT-US-Lorem------------------------------- */
+
+.aboutus-lorem {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+
+  margin-bottom: 212px;
+}
+
+.aboutus-lorem-title {
+  color: #1090cb;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 72px */
+
+  width: 807px;
+}
+
+.aboutus-lorem-text {
+  color: #585858;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%; /* 40px */
+
+  width: 1014px;
+}
+
+.after {
+  display: flex;
+  gap: 52px;
+
+  margin-bottom: 198px;
+}
+
+.after-left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 490px;
+}
+
+.after-purple {
+  width: 54px;
+  height: 5px;
+  background-color: #4628a4;
+}
+
+.after-lorem {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.after-lorem-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 48px */
+}
+
+.after-lorem-text {
+  color: #585858;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%; /* 40px */
+}
+
+.after-contactus {
+  color: #1090cb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 204.3%; /* 32.688px */
+
+  width: 192px;
+  height: 52px;
+
+  border-radius: 10px;
+  border: 1px solid #1090cb;
+  background: #fff;
+
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.after-right {
+  width: 766px;
+  padding-left: 60px;
+
+  background: #fff;
+  box-shadow: 0px 4px 124px 0px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 54px;
+}
+
+.after-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 28px;
+}
+
+.after-card1{
+  display: flex;
+  justify-content: flex-start;
+  gap: 96px;
+}
+
+.after-card2{
+  display: flex;
+  justify-content: flex-start;
+  gap: 58px;
+}
+
+
+.after-card-img1 {
+  width: 90px;
+  height: 90px;
+
+  border-radius: 20px;
+  background-color: #fff2f2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.after-card-img2 {
+  width: 90px;
+  height: 90px;
+
+  border-radius: 20px;
+  background-color: #F1E8FF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.after-card-img3 {
+  width: 90px;
+  height: 90px;
+
+  border-radius: 20px;
+  background-color: #E2F3FF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.after-card-img4 {
+  width: 90px;
+  height: 90px;
+
+  border-radius: 20px;
+  background-color: #FFE7FB;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.after-card-title {
+  color: #2e0d64;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.9%; /* 44.475px */
+  letter-spacing: 0.25px;
 }
