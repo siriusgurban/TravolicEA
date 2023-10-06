@@ -150,7 +150,7 @@
   align-items: center;
 }
 
-/* -------------------------------------------------------- */
+/* -----------------------Experienced--------------------------------- */
 
 .experienced {
   background: rgba(16, 144, 203, 0.1);
@@ -1178,4 +1178,78 @@
   font-weight: 500;
   line-height: 177.9%; /* 44.475px */
   letter-spacing: 0.25px;
+}
+
+
+/* ------------------------------SERVICES-------------------------------------- */
+
+.our{
+    background: rgba(16, 144, 203, 0.1);
+    height: 738px;
+  
+    border-top: 0.7px solid #c4c4c4;
+  
+    position: relative;
+
+
+    margin-bottom: 500px;
+}
+
+.our-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  margin-top: 78px;
+  margin-bottom: 72px;
+}
+
+.our-img{
+  width: 136px;
+  height: 136px;
+
+  background-color: #fff;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-title{
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.our-title span{
+  color: #1090CB;
+}
+
+.our-text{
+  color: #696969;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 31.5px */
+
+  width: 440px;
+}
+
+.subour{
+  width: 1203px;
+height: 441px;
+
+border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
+
+position: absolute;
 }
