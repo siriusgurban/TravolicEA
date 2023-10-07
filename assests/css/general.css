@@ -1326,24 +1326,27 @@
 }
 
 .illus-left-contactus {
+  width: 193px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #1090cb;
+  
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 192px;
-  height: 50px;
+}
 
-  border-radius: 10px;
-  border: 1px solid #1090cb;
-  background: #fff;
-
+.illus-left-contactus a{
   color: #1090cb;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: 204.3%; /* 32.688px */
-
-  cursor: pointer;
+  line-height: normal;
+  text-decoration: none;
 }
 
 .illus-right {
