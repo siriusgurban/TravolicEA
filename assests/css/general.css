@@ -12,7 +12,7 @@
 
 .container {
   max-width: 1376px;
-  margin: auto 122px;
+  margin: 0 122px;
 }
 
 .header-logo {
@@ -159,6 +159,9 @@
   border-top: 0.7px solid #c4c4c4;
 
   position: relative;
+
+  display: flex;
+  justify-content: center;
 }
 
 .experienced-main {
@@ -275,6 +278,10 @@
 }
 
 /* ------------------web----------------------------- */
+.web-con {
+  display: flex;
+  justify-content: center;
+}
 
 .web {
   display: flex;
@@ -493,7 +500,7 @@
 
 .eclipse {
   position: absolute;
-  left: 90%;
+  left: 89%;
   z-index: 0;
 }
 
@@ -1104,22 +1111,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   gap: 28px;
 }
 
-.after-card1{
+.after-card1 {
   display: flex;
   justify-content: flex-start;
   gap: 96px;
 }
 
-.after-card2{
+.after-card2 {
   display: flex;
   justify-content: flex-start;
   gap: 58px;
 }
-
 
 .after-card-img1 {
   width: 90px;
@@ -1138,7 +1144,7 @@
   height: 90px;
 
   border-radius: 20px;
-  background-color: #F1E8FF;
+  background-color: #f1e8ff;
 
   display: flex;
   justify-content: center;
@@ -1150,7 +1156,7 @@
   height: 90px;
 
   border-radius: 20px;
-  background-color: #E2F3FF;
+  background-color: #e2f3ff;
 
   display: flex;
   justify-content: center;
@@ -1162,7 +1168,7 @@
   height: 90px;
 
   border-radius: 20px;
-  background-color: #FFE7FB;
+  background-color: #ffe7fb;
 
   display: flex;
   justify-content: center;
@@ -1180,33 +1186,40 @@
   letter-spacing: 0.25px;
 }
 
-
 /* ------------------------------SERVICES-------------------------------------- */
 
-.our{
-    background: rgba(16, 144, 203, 0.1);
-    height: 738px;
-  
-    border-top: 0.7px solid #c4c4c4;
-  
-    position: relative;
+.our {
+  background: rgba(16, 144, 203, 0.1);
+  height: 738px;
 
+  border-top: 0.7px solid #c4c4c4;
 
-    margin-bottom: 500px;
+  position: relative;
+
+  margin-bottom: 360px;
+
+  display: flex;
+  justify-content: center;
 }
 
-.our-card{
+.our-con {
+  margin: 0 122px;
+}
+
+.our-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
 
+  max-width: 440px;
+
   margin-top: 78px;
   margin-bottom: 72px;
 }
 
-.our-img{
+.our-img {
   width: 136px;
   height: 136px;
 
@@ -1218,7 +1231,7 @@
   align-items: center;
 }
 
-.our-title{
+.our-title {
   color: #000;
   font-family: Poppins;
   font-size: 40px;
@@ -1227,11 +1240,11 @@
   line-height: normal;
 }
 
-.our-title span{
-  color: #1090CB;
+.our-title span {
+  color: #1090cb;
 }
 
-.our-text{
+.our-text {
   color: #696969;
   text-align: center;
   font-family: Poppins;
@@ -1243,13 +1256,230 @@
   width: 440px;
 }
 
-.subour{
-  width: 1203px;
-height: 441px;
+.subour {
+  width: 1202px;
+  height: 440px;
 
-border-radius: 10px;
-background: #FFF;
-box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
 
-position: absolute;
+  position: absolute;
+
+  top: 480px;
+  left: 10%;
+}
+
+/* ----------------------------Section-Illus---------------------------- */
+
+.illus-con {
+  display: flex;
+  justify-content: center;
+}
+
+.illus {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  margin-bottom: 158px;
+}
+
+.illus-left {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  max-width: 476px;
+
+  width: 100%;
+}
+
+.illus-left-title {
+  color: #252525;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%;
+}
+
+.illus-left-title-span {
+  color: #1090cb;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 51px */
+}
+
+.illus-left-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  color: #545454;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 28.8px */
+}
+
+.illus-left-contactus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 192px;
+  height: 50px;
+
+  border-radius: 10px;
+  border: 1px solid #1090cb;
+  background: #fff;
+
+  color: #1090cb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 204.3%; /* 32.688px */
+
+  cursor: pointer;
+}
+
+.illus-right {
+  max-width: 752px;
+  min-width: 352px;
+}
+
+.illus-right,
+.illus-left {
+  width: 100%;
+}
+
+/* ----------------------------Section-Panel---------------------------- */
+.pan-con {
+  background-color: #1090cb;
+  position: relative;
+
+  margin-bottom: 140px;
+}
+
+.pan-img1 {
+  position: absolute;
+  top: -100px;
+  left: 10%;
+}
+
+.pan-img2 {
+  position: absolute;
+  top: -60px;
+  left: 70%;
+}
+
+.pan-img3 {
+  position: absolute;
+  top: -74px;
+  left: 78%;
+}
+
+.pan-img4 {
+  position: absolute;
+  top: 250px;
+  left: 0;
+}
+
+.pan-img5 {
+  position: absolute;
+  top: 330px;
+  left: 22%;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 388px;
+
+  margin: 0 178px;
+}
+
+.panel-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  justify-content: center;
+}
+
+.panel-number {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 600;
+
+  letter-spacing: 0.65px;
+
+  text-align: center;
+}
+
+.panel-text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.9%; /* 28.464px */
+  letter-spacing: 0.16px;
+
+  text-align: center;
+}
+
+/* ----------------------------Section-Projects---------------------------- */
+
+.pro-header {
+  color: #000;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.9%; /* 64.044px */
+  letter-spacing: 0.36px;
+
+  margin-bottom: 60px;
+}
+
+.pro {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+  gap: 84px;
+}
+
+.pro-card {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  width: 334px;
+}
+
+.pro-card-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 177.9%; /* 40.917px */
+  letter-spacing: 0.23px;
+}
+
+.pro-card-text {
+  color: #424242;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 210.9%; /* 33.744px */
+  letter-spacing: 0.16px;
 }
