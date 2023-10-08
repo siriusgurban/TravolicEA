@@ -168,6 +168,20 @@
   display: flex;
 }
 
+.experienced-img1 {
+  position: absolute;
+  top: 1%;
+  left: 0%;
+  z-index: -2;
+}
+
+.experienced-img2 {
+  position: absolute;
+  top: 1%;
+  left: 60%;
+  z-index: -2;
+}
+
 .experienced-img {
   width: 100%;
 }
@@ -281,13 +295,20 @@
 .web-con {
   display: flex;
   justify-content: center;
+  border-bottom: 0.7px solid #c4c4c4;
+}
+
+.con {
+  border-bottom: 0.7px solid #c4c4c4;
+  display: flex;
+  justify-content: center;
 }
 
 .web {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
   height: 164px;
-  border-bottom: 0.7px solid #c4c4c4;
 }
 
 .web-sec {
@@ -752,7 +773,6 @@
 .subscribe-input {
   width: 496px;
   height: 67px;
-  flex-shrink: 0;
 
   border-radius: 10px;
   background: #fff;
@@ -761,6 +781,7 @@
   border: 1px solid #fff;
   transition: 0.5s;
   padding: 0 0 0 36px;
+  font-size: 16px;
 }
 
 .subscribe-input:focus {
@@ -1718,6 +1739,26 @@
   font-size: 14px;
 }
 
+.say-fname-in,
+.say-lname-in,
+.say-email-in,
+.say-text-in {
+  transition: 0.5s;
+}
+
+.say-fname-in:focus {
+  border: 1px solid #555;
+}
+.say-lname-in:focus {
+  border: 1px solid #555;
+}
+.say-email-in:focus {
+  border: 1px solid #555;
+}
+.say-text-in:focus {
+  border: 1px solid #555;
+}
+
 .say-fname-in {
   width: 297px;
   height: 56px;
@@ -1786,10 +1827,9 @@
 
   display: flex;
   justify-content: center;
-  
 }
 
-.say-subnit-{
+.say-subnit- {
   display: flex;
   justify-content: flex-end;
 }
