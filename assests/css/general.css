@@ -304,7 +304,11 @@
 .aa {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+}
+
+
+.aat {
+  display: flex;
 }
 
 .con {
@@ -1067,11 +1071,11 @@
   display: flex;
   flex-direction: column;
   gap: 70px;
-
+  width: 1170px;
   margin-bottom: 212px;
 }
 
-.aboutus-lorem-title {
+.aboutus-lorem-title h2{
   color: #1090cb;
   font-family: Poppins;
   font-size: 45px;
@@ -1083,7 +1087,7 @@
   width: 807px;
 }
 
-.aboutus-lorem-text {
+.aboutus-lorem-text p{
   color: #585858;
   font-family: Poppins;
   font-size: 20px;
@@ -1097,7 +1101,7 @@
 
 .after {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 
   gap: 52px;
 
@@ -1121,6 +1125,7 @@
   display: flex;
   flex-direction: column;
   gap: 60px;
+
 }
 
 .after-lorem-title {
@@ -1168,8 +1173,9 @@
 }
 
 .after-right {
-  width: 766px;
-  padding-left: 60px;
+  /* width: 766px; */
+  /* width: 100%; */
+  /* padding-left: 60px; */
 
   background: #fff;
   box-shadow: 0px 4px 124px 0px rgba(0, 0, 0, 0.1);
@@ -1352,7 +1358,7 @@
 
 }
 
-.subour-icon{
+.subour-icon {
   position: absolute;
   top: -68px;
   left: 85%;
@@ -1888,6 +1894,7 @@
 .say-email-in,
 .say-text-in {
   transition: 0.5s;
+  border: 1px solid #fff;
 }
 
 .say-fname-in:focus {
