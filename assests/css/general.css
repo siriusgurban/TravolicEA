@@ -1333,11 +1333,11 @@
 
 .subour {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   /* gap: 20px; */
-  /* width: 1202px; */
-  max-width: 1000px;
-  width: 80%;
+  max-width: 1202px;
+  /* max-width: 1000px; */
+  /* width: 80%; */
   height: 440px;
 
   border-radius: 10px;
@@ -1345,10 +1345,18 @@
   box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
 
   position: absolute;
+  /* position: relative; */
 
   top: 480px;
   flex-wrap: wrap;
 
+}
+
+.subour-icon{
+  position: absolute;
+  top: -68px;
+  left: 85%;
+  z-index: 9999;
 }
 
 .subour-sec {
@@ -1357,7 +1365,7 @@
   align-items: center;
   gap: 40px;
 
-  width: 490px;
+  width: 540px;
 }
 
 .subour-card {
@@ -1393,7 +1401,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90px;
+  min-width: 90px;
   height: 90px;
   margin-left: 62px;
   border-radius: 20px;
