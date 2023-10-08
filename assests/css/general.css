@@ -1332,14 +1332,13 @@
   border-radius: 10px;
   background: #fff;
   border: 1px solid #1090cb;
-  
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.illus-left-contactus a{
+.illus-left-contactus a {
   color: #1090cb;
   font-family: Poppins;
   font-size: 13px;
@@ -1360,6 +1359,7 @@
 }
 
 /* ----------------------------Section-Panel---------------------------- */
+
 .pan-con {
   background-color: #1090cb;
   position: relative;
@@ -1485,4 +1485,311 @@
   font-weight: 400;
   line-height: 210.9%; /* 33.744px */
   letter-spacing: 0.16px;
+}
+
+/* ----------------------------CONTACT-US--------------------------- */
+
+.line-up {
+  border-top: 0.7px solid #c4c4c4;
+  display: flex;
+  justify-content: center;
+}
+
+.let {
+  display: flex;
+  justify-content: space-between;
+  gap: 128px;
+  margin-top: 90px;
+}
+
+.let-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.let-card-img {
+  width: 77px;
+  height: 77px;
+
+  background-color: #f5f3da;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.let-card-img img {
+  width: 56px;
+  height: 56px;
+}
+
+.let-card-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 170%; /* 76.5px */
+}
+
+.let-card-text {
+  color: #777;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 189.5%; /* 37.9px */
+}
+
+.map {
+  position: relative;
+}
+
+.map-purple {
+  position: relative;
+  position: absolute;
+  left: 312px;
+  top: 325px;
+}
+
+.map-red {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.sublet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 86px;
+}
+
+.sublet1 {
+  display: flex;
+  flex-direction: column;
+
+  gap: 18px;
+}
+
+.sublet1-img {
+  display: flex;
+  gap: 16px;
+}
+
+.sublet1-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 34px;
+  height: 34px;
+
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 1px;
+  /* box-shadow: (0px 4px 14px rgba(0, 0, 0, 0.15)); */
+  /* box-shadow: 0px 4px 124px 0px rgba(0, 0, 0, 0.10); */
+  cursor: pointer;
+}
+
+.sublet1-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 189.5%; /* 30.32px */
+}
+
+.sublet3 {
+  display: flex;
+  gap: 24px;
+}
+
+.sublet3-number {
+  color: #333;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.sublet5 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.sublet5-text {
+  color: #333;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  width: 325px;
+}
+
+/* ----------------------------Section-Say-Hello---------------------------*/
+
+.say-con {
+  height: 858px;
+  background-color: #e8f4fa;
+  margin-top: 54px;
+  display: flex;
+  justify-content: center;
+}
+
+.say {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.say-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.say-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 189.5%; /* 56.85px */
+}
+
+.say-text {
+  color: #777;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 189.5%; /* 24.635px */
+}
+
+.say-form {
+  display: flex;
+  flex-direction: column;
+  width: 670px;
+}
+
+.say-form-another {
+  display: flex;
+  gap: 26px;
+  margin-bottom: 20px;
+}
+
+.say-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.say-fname,
+.say-lname,
+.say-email,
+.say-text- {
+  color: #4f4f4f;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175.4%; /* 24.556px */
+  letter-spacing: -0.3px;
+
+  font-size: 14px;
+}
+
+.say-flname {
+  display: flex;
+  justify-content: space-between;
+  gap: 26px;
+  font-size: 14px;
+}
+
+.say-fname-in {
+  width: 297px;
+  height: 56px;
+
+  border-radius: 9px;
+  background-color: #fff;
+
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+.say-lname-in {
+  width: 297px;
+  height: 56px;
+
+  border-radius: 9px;
+  background-color: #fff;
+
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+.say-name-other {
+  display: flex;
+  flex-direction: column;
+}
+
+.say-email-in {
+  width: 645px;
+  height: 56px;
+
+  border-radius: 9px;
+  background-color: #fff;
+
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+.say-text-in {
+  width: 647px;
+  height: 232px;
+
+  border-radius: 9px;
+  background-color: #fff;
+
+  padding-left: 20px;
+  padding-top: 16px;
+  font-size: 24px;
+  margin-bottom: 56px;
+}
+
+.say-submit {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 204.3%; /* 32.688px */
+
+  border-radius: 10px;
+  background: #1090cb;
+
+  width: 193px;
+  height: 51px;
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+.say-subnit-{
+  display: flex;
+  justify-content: flex-end;
 }
