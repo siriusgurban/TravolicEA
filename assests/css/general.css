@@ -12,7 +12,7 @@
 
 .container {
   max-width: 1376px;
-  margin: 0 122px;
+  margin: 0 123px;
 }
 
 .header-logo {
@@ -296,12 +296,19 @@
   display: flex;
   justify-content: center;
   border-bottom: 0.7px solid #c4c4c4;
+  /* margin-left: 123px;
+  margin-right: 123px; */
 }
-
+.aa{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .con {
   border-bottom: 0.7px solid #c4c4c4;
   display: flex;
   justify-content: center;
+ 
 }
 
 .web {
@@ -309,6 +316,9 @@
   justify-content: space-between;
   gap: 30px;
   height: 164px;
+
+  margin-left: 123px;
+  margin-right: 123px;
 }
 
 .web-sec {
@@ -420,6 +430,7 @@
 .main-card {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 46px;
   margin-top: 104px;
 }
@@ -501,7 +512,7 @@
   font-weight: 600;
   line-height: 170%; /* 51px */
 
-  width: 516px;
+  width: 476px;
 }
 
 .main-span {
@@ -519,9 +530,13 @@
   width: 476px;
 }
 
+.main-phone{
+  position: relative;
+}
+
 .eclipse {
   position: absolute;
-  left: 89%;
+  left: 88.5%;
   z-index: 0;
 }
 
@@ -923,10 +938,12 @@
   margin-bottom: 220px;
 }
 
+
 .aboutus-sec1 {
   display: flex;
   gap: 70px;
-  margin: 156px auto 0 88px;
+  margin-top: 156px;
+  justify-content: center;
 }
 .aboutus-photo {
   display: flex;
@@ -1051,6 +1068,8 @@
 
 .after {
   display: flex;
+  justify-content: center;
+
   gap: 52px;
 
   margin-bottom: 198px;
@@ -1093,13 +1112,14 @@
   line-height: 200%; /* 40px */
 }
 
-.after-contactus {
+.after-contactus a{
   color: #1090cb;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 204.3%; /* 32.688px */
+  text-decoration: none;
 
   width: 192px;
   height: 52px;
@@ -1827,9 +1847,11 @@
 
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
-.say-subnit- {
+.say-submit- {
   display: flex;
   justify-content: flex-end;
+  
 }
